@@ -1,0 +1,43 @@
+.home-content-container {
+  width: 95%;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hori {
+  display: flex;
+  align-items: center;
+}
+.ipl-icon {
+  width: 30px;
+  height: 40px;
+}
+@media screen and (min-width: 768px) {
+  .ipl-icon {
+    width: 60px;
+    height: 80px;
+  }
+}
+.heading {
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: 'Bree Serif';
+  margin-left: 10px;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    margin-left: 25px;
+    font-size: 60px;
+  }
+}
+.list-con {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}

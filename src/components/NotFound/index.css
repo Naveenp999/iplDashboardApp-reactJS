@@ -1,0 +1,11 @@
+.notfound-text {
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: 600;
+  font-family: 'Bree Serif';
+}
+@media screen and (min-width: 768px) {
+  .notfound-text {
+    font-size: 25px;
+  }
+}
